@@ -25,7 +25,7 @@
           ];
         };
 
-        rosDistro = "rolling";
+        rosDistro = "humble";
 
       in {
         legacyPackages = pkgs.rosPackages;
